@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0% 10%;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+}
+
+h0 {
+    display: block;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+
+/* Text formatting */
+b { font-weight: 600; }
+code { font-size: 16px; }
+
+red { color: rgb(230, 4, 4); }
+green { color: rgb(8, 146, 8); }
+blue { color: rgb(2, 2, 238); }
+grey { color: rgb(187, 185, 185); }
+
+
+/* Form and form elements */
+input {
+    margin: 10px 0px;
+    border: 1px solid black;
+}
+
+input[type="text"], input[type="password"], 
+input[type="email"], input[type="number"], 
+input[type="search"], input[type="date"] {
+    background-color: rgb(63, 63, 63);
+    border-color: rgb(126, 126, 126);
+    color: white;
+    font-size: 1em;
+    padding: 7px 5px;
+}
+
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+input[type="reset"], input[type="submit"], button {
+    font-size: 0.85em;
+    padding: 6px 10px;
+    color: white;
+    background-color: rgb(46, 43, 43);
+    border-color: rgb(126, 126, 126);
+}
+
+input:hover {
+    border: 1.2px solid rgb(32, 133, 235);
+}
+
+/* Miscellaneous */
+
+a:link, a:visited { 
+    color: rgb(68, 118, 255);
+    text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+    color: rgb(62, 108, 233);
+}
+
+a:active {
+    color: blue;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+/*table*/
+
+table, tr, th, td {
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+    border-collapse: collapse;
+}
+
+td, th { 
+    padding: 10px 22px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(49, 48, 48);
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 0% 1%;
+        width: 99%;
+    }
+}

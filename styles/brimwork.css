@@ -1,0 +1,40 @@
+/** BWORK-ICON */
+
+bwork-icon {
+    display: inline-block;
+    height: 1.5em;
+    width: 1.5em;
+    background-size: cover;
+}
+
+bwork-icon[type="rank-iron"] {
+    background-image: url("https://github.com/radiant-coder/brimwork/raw/main/images/icon-rank-iron.png")
+}
+
+bwork-icon[type="rank-bronze"] {
+    background-image: url("https://github.com/radiant-coder/brimwork/raw/main/images/icon-rank-bronze.png")
+}
+
+bwork-icon[type="rank-silver"] {
+    background-image: url("https://github.com/radiant-coder/brimwork/raw/main/images/icon-rank-silver.png")
+}
+
+bwork-icon[type="rank-gold"] {
+    background-image: url("https://github.com/radiant-coder/brimwork/raw/main/images/icon-rank-gold.png")
+}
+
+bwork-icon[type="rank-platinum"] {
+    background-image: url("https://github.com/radiant-coder/brimwork/raw/main/images/icon-rank-platinum.png")
+}
+
+bwork-icon[type="rank-diamond"] {
+    background-image: url("https://github.com/radiant-coder/brimwork/raw/main/images/icon-rank-diamond.png")
+}
+
+bwork-icon[type="rank-immortal"] {
+    background-image: url("https://github.com/radiant-coder/brimwork/raw/main/images/icon-rank-immortal.png")
+}
+
+bwork-icon[type="rank-radiant"] {
+    background-image: url("https://github.com/radiant-coder/brimwork/raw/main/images/icon-rank-radiant.png")
+}

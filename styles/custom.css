@@ -1,0 +1,58 @@
+h0 {
+    text-align: center;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid dodgerblue;
+}
+
+summary {
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+h6 {
+    text-decoration: underline;
+}
+
+details {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#iron {
+    border: 1px solid lightgray;
+}
+
+#bronze {
+    border: 2px solid rgb(209, 52, 52);
+}
+
+#silver {
+    border: 2px solid white;
+}
+
+#gold {
+    border: 2px solid yellow;
+}
+
+#platinum {
+    border: 3px solid seagreen;
+}
+
+#diamond {
+    border: 4px solid purple;
+}
+
+#immortal {
+    border: 4px solid red;
+}
+
+#radiant {
+    border: 7px double goldenrod; 
+}
